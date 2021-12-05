@@ -1,0 +1,24 @@
+/* .body{
+ background-color: #f1dfd1;
+background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);;
+} */
+
+.slider img {
+  height: 450px;
+  object-fit: contain;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 767px) {
+  .mobileVisible {
+    display: block;
+  }
+
+  .mobileHidden {
+    display: none;
+  }
+}
